@@ -1,6 +1,8 @@
 node-huffman-compression
 ========================
 
+[![Build Status](https://travis-ci.org/ErikDubbelboer/node-huffman-compression.png)](https://travis-ci.org/ErikDubbelboer/node-huffman-compression)
+
 This library can be used to efficiently compress small strings with a fixed alphabet. For example a column in a database containing URL's.
 
 The library contains functions to create a dictionary and use it to compress and uncompress data.
