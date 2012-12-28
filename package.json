@@ -16,5 +16,8 @@
       "type": "git",
       "url":  "https://github.com/ErikDubbelboer/node-huffman-compression.git"
     }
-  ]
+  ],
+  "scripts": {
+    "test": "node test.js"
+  }
 }

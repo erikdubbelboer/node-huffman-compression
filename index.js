@@ -47,6 +47,10 @@ exports.Dictionary = function(data) {
   this.finish = function() {
     var queue = [];
 
+    if (Object.keys(this.frequency).length == 0) {
+      throw 'Your dictionary can not be empty';
+    }
+
     for (var c in this.frequency) {
       if (this.frequency.hasOwnProperty(c)) {
         queue.push({
